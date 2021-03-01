@@ -3,7 +3,7 @@
 // icon-color: deep-green; icon-glyph: magic;
 
 const widget = new ListWidget();
-
+var test = 0;
 // new comment
 
 // const messageText = widget.addText("Send Email to da bluesmen");
