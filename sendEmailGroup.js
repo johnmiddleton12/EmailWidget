@@ -41,7 +41,7 @@ if (config.runsInWidget) {
     mail.bccRecipients = emails;
     mail.prefferedEmailSendingAddress = "midnightbluesmen@gmail.com";
     mail.subject = "Midnight Bluesmen Newsletter";
-    mail.body = "Hello everyone, this is a test";
+    mail.body = "Hello everyone, ";
     try {
         await mail.send();
     }
