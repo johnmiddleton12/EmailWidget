@@ -3,8 +3,6 @@
 // icon-color: deep-green; icon-glyph: magic;
 
 const widget = new ListWidget();
-var test = 0;
-// new comment
 
 // const messageText = widget.addText("Send Email to da bluesmen");
 // messageText.textColor = Color.white();
@@ -43,7 +41,7 @@ if (config.runsInWidget) {
     mail.bccRecipients = emails;
     mail.prefferedEmailSendingAddress = "midnightbluesmen@gmail.com";
     mail.subject = "Midnight Bluesmen Newsletter";
-    mail.body = "Hello everyone,";
+    mail.body = "Hello everyone, this is a test";
     try {
         await mail.send();
     }
